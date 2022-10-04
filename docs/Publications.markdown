@@ -25,3 +25,13 @@ Estimating the states of a Unmanned Aerial Vehicle (UAV) without the use of onbo
 
 
 ## Posters and Presentations:
+
+#### Development and Testing of a Durable and Novel Breast Phantom for Robotic Autonomous Ultrasound Systems
+#### Amy K. Strong, Siobhan R. Oca, Daniel M. Buckland, Leila J. Bridgeman
+#### Military Health System Research Sympoium, 2022 
+Poster Presentation
+
+#### Development of an Upperlimb Musculoskeletal Wheelchair Propulsion Model to Analyze the Influence of Axle Position on Shoulder Moments
+#### Amy K. Strong, Nathan Hogaboom, Alicia Koontz, Michael Boninger
+#### American Society of Biomechanics Conference, 2018
+Poster Presentation
