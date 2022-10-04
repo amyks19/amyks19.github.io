@@ -8,6 +8,7 @@ permalink: /Publications/
 
 #### [Dissipative Imitation Learning for Robust Dynamic Output Feedback](https://arxiv.org/abs/2210.00979) 
 Amy K. Strong, Ethan J. LoCicero, Leila J. Bridgeman
+
 *IEEE Conference on Decision and Control*, 2022
 
 Abstract: 
@@ -16,6 +17,7 @@ Robust imitation learning seeks to mimic expert controller behavior while ensuri
 
 #### [Utilizing Hidden Markov Models to Classify Maneuvers and Improve Estimates of an Unmanned Aerial Vehicle](https://www.sciencedirect.com/science/article/pii/S2405896321022588)
 Amy K. Strong, Scott M. Martin, David M. Bevly
+
 *Modelling, Estimation and Controls Conference*, 2021
 
 Abstract:
@@ -26,10 +28,14 @@ Estimating the states of a Unmanned Aerial Vehicle (UAV) without the use of onbo
 
 #### Development and Testing of a Durable and Novel Breast Phantom for Robotic Autonomous Ultrasound Systems
 Amy K. Strong, Siobhan R. Oca, Daniel M. Buckland, Leila J. Bridgeman
+
 *Military Health System Research Sympoium*, 2022 
+
 Poster Presentation
 
 #### Development of an Upperlimb Musculoskeletal Wheelchair Propulsion Model to Analyze the Influence of Axle Position on Shoulder Moments
 Amy K. Strong, Nathan Hogaboom, Alicia Koontz, Michael Boninger
+
 *American Society of Biomechanics Conference*, 2018
+
 Poster Presentation
