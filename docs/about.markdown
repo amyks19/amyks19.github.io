@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Amy Strong
+title: About
 permalink: /about/
 ---
 
