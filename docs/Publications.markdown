@@ -1,3 +1,5 @@
+---
 layout: page
-title: "Publications"
-permalink: /publications
+title: Publications
+permalink: /Publications/
+---
