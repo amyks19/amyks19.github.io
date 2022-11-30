@@ -14,6 +14,14 @@ Amy K. Strong, Ethan J. LoCicero, Leila J. Bridgeman
 Abstract: 
 Robust imitation learning seeks to mimic expert controller behavior while ensuring stability, but current methods require accurate plant models. Here, robust imitation learning is addressed for stabilizing poorly modeled plants with linear dynamic output feedback. Open-loop input-output properties are used to characterize an uncertain plant, and the feedback matrix of the dynamic controller is learned while enforcing stability through the controller's open-loop QSR-dissipativity properties. The imitation learning method is applied to two systems with parametric uncertainty.
 
+#### [Development and Testing of a Durable and Novel Breast Phantom for Robotic Autonomous Ultrasound Systems](https://www.worldscientific.com/doi/abs/10.1142/S2424905X22410100?cookieSet=1)
+Siobhan R. Oca, Amy K. Strong, Jiselle Havas, Daniel M. Buckland, and Leila J. Bridgeman
+
+*Journal of Medical Robotics Reseach*, 2022
+
+Abstract:
+For the safe and effective development of evolving autonomous medical robotic systems that traverse the surface of the body, like in breast ultrasound scans, developing phantoms that are durable and mechanically mimic human tissue is critical. In this work a long lasting, inexpensive, and geometrically customizable phantom is described with mechanical and ultrasound acoustic properties that simulate human breast tissue. In comparison to prior work, a priority was designing a highly elastic phantom outer layer modulus ~20 kPa and inner semi liquid layer to mimic the difficulties of traversing human breast tissue with autonomous medical robotic systems. In addition, ultrasound images of the novel phantom with enclosed tumor are similar to in-vivo image of human breast tissue with invasive ductal carcinoma, representing 80\% of breast cancer cases. The performance of a force feedback controller on an autonomous ultrasound scanning system was compared for the novel phantom and a commercial phantom. Overall, the controller performed worse on the novel phantom -- highlighting the importance of testing autonomous systems on realistic phantoms.
+
 
 #### [Utilizing Hidden Markov Models to Classify Maneuvers and Improve Estimates of an Unmanned Aerial Vehicle](https://www.sciencedirect.com/science/article/pii/S2405896321022588)
 Amy K. Strong, Scott M. Martin, David M. Bevly
