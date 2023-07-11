@@ -2,6 +2,11 @@
 layout: page
 title: News
 permalink: /News/
+
+profile:
+  align: right
+  image: Amy-Strong-Headshot.jpg
+  image_circular: true
 ---
 
 ### News
