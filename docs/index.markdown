@@ -5,8 +5,8 @@
 layout: home
 
 profile:
-  align: right
-  image: Amy-Strong-Headshot.jpg
+  align: left
+  image: https://github.com/amyks19/amyks19.github.io/blob/main/docs/Amy-Strong-Headshot.jpg?raw=true
   image_circular: true
 ---
 
