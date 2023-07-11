@@ -5,7 +5,7 @@ permalink: /about/
 
 profile:
   align: right
-  image: Amy Strong-Headshot.jpg
+  image: Amy-Strong-Headshot.jpg
   image_circular: true
 ---
 
