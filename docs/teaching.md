@@ -12,7 +12,7 @@ profile:
 #### Teaching
 
 ##### Duke University
-- Model Predictive Control (TA)
+- Model Predictive Control, Spring 2023 (TA)
 - Intro to Robotics, Fall 2022 (TA and Guest Lecturer)
 
 ##### Auburn University
