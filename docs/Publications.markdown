@@ -6,7 +6,7 @@ permalink: /Publications/
 
 ## Journal Articles:
 
-#### Dissipative Imitation Learning for Discrete Dynamic Output Feedback Control with Sparse Data Sets
+#### [Dissipative Imitation Learning for Discrete Dynamic Output Feedback Control with Sparse Data Sets](https://arxiv.org/abs/2309.06658)
 Amy K. Strong, Ethan J. LoCicero, Leila J. Bridgeman
 
 *International Journal of Robust and Nonlinear Control*, 2023 (Under Review)
