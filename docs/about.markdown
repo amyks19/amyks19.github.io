@@ -3,13 +3,9 @@ layout: page
 title: About Me
 permalink: /about/
 
-profile:
-  align: right
-  image: Amy-Strong-Headshot.jpg
-  image_circular: true
 ---
 
-<img style="float: right;" src="./Amy-Strong-Headshot.jpg" width="25%" height="25%">  
+<img style="float: right;" src="./Amy-Strong-Headshot.jpg" width="15%" height="15%">  
 
 I am a third year Mechanical Engineering PhD candidate at [Duke University](https://pratt.duke.edu/), where I work in the [Bridgeman Lab](http://bridgeman.pratt.duke.edu/).  Currently, my research involves using robust control theory to analyze data driven control techniques such as imitation learning and using data driven methods to determine robust characterizations such as invariance and dissipativity for unknown nonlinear dynamical systems. I am interested in ensuring the safety and stability of learned controllers so that they can be used on safety critical systems.
 
