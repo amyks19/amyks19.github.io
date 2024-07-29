@@ -6,13 +6,21 @@ permalink: /Publications/
 
 ## Journal Articles:
 
-#### [Dissipative Imitation Learning for Discrete Dynamic Output Feedback Control with Sparse Data Sets](https://arxiv.org/abs/2309.06658)
+#### [Dissipative Imitation Learning for Discrete Dynamic Output Feedback Control with Sparse Data Sets](https://onlinelibrary.wiley.com/doi/abs/10.1002/rnc.7398?casa_token=mUkS0P9JyroAAAAA%3AOqpsiXRFSq9yEV5vSvmifoM471AV3TmeU6oN2Cv-JtnLKmwoGuLqyoq1MmGJXTiF6VoL7LQbbh6cfWI&casa_token=s8MitA_brxIAAAAA%3AdpqY6P_M-lhhF9w14l7hXUzs9Jba8Rf9ahF2txCiAimKsdmSooet9fs0ibpKYFn-_na7T96yHbdQ85Q)
 Amy K. Strong, Ethan J. LoCicero, Leila J. Bridgeman
 
-*International Journal of Robust and Nonlinear Control*, 2023 (Submitted)
+*International Journal of Robust and Nonlinear Control*, 2024
 
 Abstract:
-Imitation learning enables the synthesis of controllers for complex objectives and highly uncertain plant models. However, methods to provide stability guarantees to imitation learned controllers often rely on large amounts of data and/or known plant models. In this paper, we explore an input-output (IO) stability approach to dissipative imitation learning, which achieves stability with sparse data sets and with little known about the plant model. A closed-loop stable dynamic output feedback controller is learned using expert data, a coarse IO plant model, and a new constraint to enforce dissipativity on the learned controller. While the learning objective is nonconvex, iterative convex overbounding (ICO) and projected gradient descent (PGD) are explored as methods to successfully learn the controller. This new imitation learning method is applied to two unknown plants and compared to traditionally learned dynamic output feedback controller and neural network controller. With little knowledge of the plant model and a small data set, the dissipativity constrained learned controller achieves closed loop stability and successfully mimics the behavior of the expert controller, while other methods often fail to maintain stability and achieve good performance.
+Imitation learning enables synthesis of controllers for systems with complex objectives and uncertain plant models. However, ensuring an imitation learned controller is stable requires copious amounts of data and/or a known plant model. In this paper, we explore an input–output (IO) stability approach to imitation learning, which achieves stability with sparse data sets while only requiring coarse knowledge of the energy characteristics of the plant. A constrained optimization problem is developed, in which the controller learns to mimic expert data while maintaining stabilizing energy characteristics induced by the plant. While the learning objective is nonconvex, iterative convex overbounding (ICO) and projected gradient descent (PGD) are explored as methods to learn the controller. In numerical examples, it is shown that with little knowledge of the plant model and a small data set, the dissipativity constrained learned controller achieves closed loop stability and successfully mimics the behavior of the expert controller, while other methods often fail to maintain stability and achieve good performance.
+
+#### [Stochastic Dissipativity for Systems with Probabilistic Input Delays](https://arxiv.org/pdf/2401.02569)
+Ethan J. LoCicero, Amy K. Strong, Leila J. Bridgeman
+
+*Automatica*, 2023 (Submitted)
+
+Abstract: 
+This work considers stochastic operators in general inner-product spaces, and in particular, systems with stochastically timevarying input delays of a known probability distribution. Stochastic dissipativity and stability are defined from an operatortheoretic perspective, and the well-known open-loop dissipativity conditions for closed-loop/network stability are extended to the stochastic case. Criteria are derived to identify dissipative nonlinear systems with stochastic input delays, and this result is used to find delay-distribution-dependent linear matrix inequality conditions for stochastic dissipativity of a linear system with input delays of a known probability distribution. A numerical experiment demonstrates the utility of the resulting criteria for robust plant analysis and controller design, highlighting significantly reduced conservatism compared to deterministic methods.
 
 #### [Development and Testing of a Durable and Novel Breast Phantom for Robotic Autonomous Ultrasound Systems](https://www.worldscientific.com/doi/abs/10.1142/S2424905X22410100?cookieSet=1)
 Siobhan R. Oca, Amy K. Strong, Jiselle Havas, Daniel M. Buckland, and Leila J. Bridgeman
@@ -24,14 +32,24 @@ For the safe and effective development of evolving autonomous medical robotic sy
 
 ## Peer Reviwed Conference Papers:
 
-#### Improved Small Signal L2 Gain Analysis for Nonlinear Systems
+#### [Improved Small Signal L2 Gain Analysis for Nonlinear Systems](https://arxiv.org/abs/2309.08034)
 Amy K. Strong, Reza Lavaei, Leila J. Bridgeman
 
-*American Control Conference*, 2023 (Submitted)
+*American Control Conference*, 2024
 
-Abstract: The L2-gain characterizes a dynamical system's input-output properties and is used for important control methods, like H-infinity control. However, gain can be difficult to determine for nonlinear systems. Previous work designed a nonconvex optimization problem to simultaneously search for a continuous piecewise affine (CPA) storage function and an upper bound on the small-signal L2-gain of a dynamical system over a triangulated region about the origin. This work improves upon those results to establish a tighter upper-bound on a system's gain through a convex optimization problem. By reformulating the relationship between the Hamilton-Jacobi equations and gain as a linear matrix inequality (LMI) and then developing novel LMI error bounds for a triangulation, tighter gain bounds are derived and computed more efficiently. Numerical results demonstrate the less conservative upper bound on a dynamical system's gain.
+Abstract: 
+The L2-gain characterizes a dynamical system’s input-output properties, but can be difficult to determine for nonlinear systems. Previous work designed a nonconvex optimization problem to simultaneously search for a continuous piecewise affine (CPA) storage function and an upper bound on the small-signal L2-gain of a dynamical system over a triangulated region about the origin. This work improves upon those results by establishing a tighter upper-bound on a system’s gain using a convex optimization problem. By reformulating the relationship between the Hamilton-Jacobi inequality and L2-gain as a linear matrix inequality (LMI) and then developing novel LMI error bounds for a triangulation, tighter gain bounds are derived and computed more efficiently. Additionally, a combined quadratic and CPA storage function is considered to expand the nonlinear systems this optimization problem is applicable to. Numerical results demonstrate the tighter upper bound on a dynamical system’s gain.
 
-#### [Dissipative Imitation Learning for Robust Dynamic Output Feedback](https://arxiv.org/abs/2210.00979) 
+#### [Data Driven Verification of Positive Invariant Sets for Discrete, Nonlinear Systems](https://proceedings.mlr.press/v242/strong24a/strong24a.pdf)
+Amy K. Strong, Leila J. Bridgeman
+
+*6th Annual Conference on Learning for Dynamics and Control*, 2024
+(Oral Presentation)
+
+Abstract:
+Invariant sets are essential when establishing safety of nonlinear systems. However, certifying the existence of a positive invariant set for a nonlinear model is difficult and often requires knowledge of the system’s dynamic model. This paper presents a data driven method to certify a positive invariant set for an unknown, discrete, nonlinear system. A triangulation of a subset of the state space is used to query data points. Then, a convex optimization problem is used to create a continuous piecewise affine (CPA) function that fulfills the criteria of the Extended Invariant Set Principle by leveraging an inequality error bound that uses the system’s Lipschitz constant. Numerical results demonstrate the program’s ability to certify positive invariant sets from sampled data.
+
+#### [Dissipative Imitation Learning for Robust Dynamic Output Feedback](https://ieeexplore.ieee.org/abstract/document/9992760) 
 Amy K. Strong, Ethan J. LoCicero, Leila J. Bridgeman
 
 *IEEE Conference on Decision and Control*, 2022
